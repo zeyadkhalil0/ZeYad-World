@@ -1,0 +1,439 @@
+/* Start Global Rule */
+:root {
+    --sction-background: #181819;
+    --text-color: #76ABAE;
+    --background: #191919;
+    --hover: #2C3333;
+    --before-background: #2E4F4F;
+    --section-2: #161616;
+}
+
+
+.dark::-webkit-scrollbar {
+    width: 5px;
+}
+
+.dark::-webkit-scrollbar-thumb {
+    background-color: var(--text-color);
+    border-radius: 50px;
+}
+
+
+.dark .spikes::after {
+    height: 0px;
+}
+
+/* End Global Rule */
+
+
+/* Start Dark-mode */
+
+.dark {
+    background-color: var(--background);
+
+}
+
+.dark .arrow {
+    background-color: var(--hover);
+}
+
+.dark .arrow:hover {
+    background-color: var(--before-background);
+}
+
+.dark .header .logo {
+    color: var(--text-color);
+}
+
+.dark h1 {
+    color: var(--text-color);
+}
+
+.dark span {
+    color: whitesmoke;
+}
+
+.dark .landing .go-down a {
+    color: var(--text-color);
+}
+
+.dark .header {
+    background-color: var(--sction-background)
+}
+
+.dark .header .nav a {
+    color: var(--text-color);
+}
+
+.dark .header .nav>li>a:hover {
+    background-color: var(--hover);
+    color: whitesmoke;
+}
+
+.dark .header .nav>li>a::before {
+    background-color: var(--before-background);
+}
+
+.dark .header .nav>li>a::before:hover {
+    background-color: var(--before-background);
+}
+
+.dark .landing::before {
+    background-color: var(--hover);
+
+}
+
+.dark .main-title {
+    color: var(--text-color);
+}
+
+.dark .main-title:hover {
+    border: 2px solid var(--hover);
+}
+
+.dark .main-title::before {
+    background-color: var(--hover);
+}
+
+.dark .main-title::after {
+    background-color: var(--hover);
+}
+
+.dark .mega-menu {
+    background-color: var(--sction-background);
+}
+
+.dark .mega-menu .links>li::before {
+    background-color: var(--hover);
+}
+
+.dark .articles .container .box {
+    background-color: var(--sction-background);
+    box-shadow: rgba(118, 171, 174, 0.2) 0px 5px 15px;
+}
+
+.dark .articles .box .content {
+    background-color: var(--sction-background);
+    border-top: none;
+    color: var(--text-color);
+
+}
+
+.dark .articles .box .info {
+    background-color: var(--sction-background);
+    border-top: none;
+    color: var(--text-color);
+}
+
+.dark .articles .box .info a {
+    color: var(--text-color);
+}
+
+.dark .gallery {
+    background-color: var(--section-2);
+}
+
+.dark .gallery .box {
+    background-color: var(--hover);
+}
+
+.dark .features {
+    background-color: var(--background);
+}
+
+.dark .features .box {
+    border: 1px solid var(--hover);
+    box-shadow: rgba(118, 171, 174, 0.2) 0px 5px 15px;
+
+}
+
+.dark .features .box h2 {
+    color: whitesmoke;
+}
+
+.dark .features .box .img-holder::before {
+    border-color: transparent transparent #191919 transparent;
+}
+
+.dark .testimonials {
+    background-color: var(--sction-background);
+}
+
+.dark .testimonials .container .box {
+    background-color: var(--hover);
+    box-shadow: rgba(148, 211, 208, 0.404) -1px 2px 11px;
+}
+
+.dark .testimonials .container .box h3 {
+    color: var(--text-color);
+}
+
+.dark .testimonials .box img {
+    background-color: var(--background);
+}
+
+.dark .team .box::before {
+    background-color: var(--hover);
+    box-shadow: rgba(148, 211, 208, 0.4) 0px 4px 12px 1px;
+}
+
+.dark .team .box::after {
+    background-color: #777;
+    opacity: 5%;
+}
+
+.dark .team .box .info h3 {
+    color: var(--text-color);
+}
+
+.dark .team .box .info p {
+    color: #777;
+}
+
+.dark .services {
+    background-color: var(--sction-background);
+}
+
+.dark .services .container .box {
+    background-color: var(--hover);
+}
+
+.dark .services .box h3 {
+    color: var(--text-color);
+}
+
+.dark .services .box i {
+    color: whitesmoke;
+}
+
+.dark .services .box .info {
+    overflow: hidden;
+}
+
+.dark .services .box .info::before {
+    color: white;
+    background-color: #666;
+}
+
+.dark .services .box .info a {
+    color: var(--text-color);
+}
+
+.dark .services .box .info::after {
+    background-color: var(--before-background);
+}
+
+.dark .services .container .box::before {
+    background-color: var(--before-background);
+}
+
+.dark .services .container .box::after {
+    background-color: var(--before-background);
+}
+
+.dark .skills .container .all-skills .skill h3 {
+    color: var(--text-color);
+}
+
+.dark .skills .container .all-skills .skill span {
+    color: var(--text-color);
+}
+
+.dark .skills .container .all-skills .line::after {
+    background-color: var(--before-background);
+}
+
+.dark .skills .container .all-skills .line::before {
+    background-color: #ccc
+}
+
+.dark .skills .container .all-skills .line-2::after {
+    background-color: var(--before-background);
+}
+
+.dark .skills .container .all-skills .line-2::before {
+    background-color: #ccc
+}
+
+.dark .skills .container .all-skills .line-3::after {
+    background-color: var(--before-background);
+}
+
+.dark .skills .container .all-skills .line-3::before {
+    background-color: #ccc
+}
+
+.dark .how-it-works {
+    background-color: var(--sction-background);
+}
+
+.dark .how-it-works .info .box {
+    background-color: var(--before-background);
+
+    border: 2px solid var(--text-color);
+}
+
+.dark .how-it-works .info .box::before {
+    background-color: #999;
+    opacity: 15%;
+}
+
+
+.dark .how-it-works .box .text p {
+    color: #ccc;
+}
+
+.dark .events .unit:hover {
+    border: 1px solid var(--text-color);
+}
+
+.dark .events .unit span:last-child {
+    color: var(--text-color);
+}
+
+.dark .events .info .title {
+    color: var(--text-color);
+}
+
+.dark .events .subscribe form {
+    background-color: var(--before-background);
+}
+
+.dark .events .subscribe form input[type="submit"] {
+    background-color: var(--hover);
+}
+
+.dark .events .subscribe form input[type="submit"]:hover {
+    background-color: var(--background);
+    opacity: 80%;
+}
+
+.dark .pricing {
+    background-color: var(--sction-background);
+}
+
+.dark .pricing .container .box {
+    background-color: var(--before-background);
+}
+
+.dark .pricing .box h2 {
+    color: whitesmoke;
+}
+
+.dark .pricing .box img {
+    filter: brightness(0) saturate(100%) invert(65%) sepia(28%) saturate(375%) hue-rotate(135deg) brightness(93%) contrast(88%);
+}
+
+.dark .pricing .box .price span:first-child {
+    color: whitesmoke;
+}
+
+.dark .pricing .box .price span:last-child {
+    color: #ccc;
+}
+
+
+
+.dark .pricing .container .box::after {
+    background-color: #ccc;
+    opacity: 10%;
+
+}
+
+.dark .pricing .container .box::before {
+    background-color: #ccc;
+    opacity: 10%;
+}
+
+.dark .pricing .box li {
+    border-top: 1px solid whitesmoke;
+    color: whitesmoke;
+}
+
+.dark .pricing .box li::before {
+    color: var(--background);
+}
+
+.dark .pricing .box a {
+    color: var(--text-color);
+    border: 2px solid var(--hover);
+}
+
+.dark .pricing .box a:hover {
+    background-color: var(--hover);
+    border: 2px solid var(--sction-background);
+}
+
+.dark .pricing .box .label {
+    background-color: var(--hover);
+}
+
+.dark .video .box .header {
+    box-shadow: none;
+    color: var(--text-color);
+    background-color: var(--sction-background);
+}
+
+.dark .video .box .side li {
+    color: var(--text-color);
+    background-color: var(--sction-background);
+}
+
+.dark .video .box .side li:hover {
+    color: whitesmoke;
+}
+
+.dark .video .container .holder {
+    background-color: var(--hover);
+}
+
+.dark .video .holder .preview .info {
+    background-color: var(--sction-background);
+    color: var(--text-color);
+}
+
+.dark .stats h2 {
+    color: var(--text-color);
+}
+
+.dark .stats {
+    background-image: none;
+}
+
+.dark .stats::before {
+    background-color: rgb(44, 51, 51, 95%)
+}
+
+.dark .stats .box {
+    background-color: var(--before-background);
+}
+
+.dark .stats .box .text {
+    color: var(--text-color);
+}
+
+.dark .stats .box::before {
+    background-color: var(--background);
+}
+
+.dark .stats .box::after {
+    background-color: var(--background);
+}
+
+.dark .discount {
+    background-color: var(--background);
+}
+
+.dark .discount .form .content h2 {
+    color: whitesmoke;
+}
+
+.dark .discount .side::before {
+    background-color: rgb(25, 25, 25, 95%);
+}
+
+.dark .discount .form .content input[type="submit"] {
+    background-color: var(--hover);
+}
+
+/* end Dark-mode */
